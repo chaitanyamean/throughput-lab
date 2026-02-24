@@ -1,0 +1,26 @@
+[
+  {
+    "count": 10000,
+    "bullmq": 28571,
+    "rabbitmq": 107527,
+    "kafka": 138889
+  },
+  {
+    "count": 100000,
+    "bullmq": 61013,
+    "rabbitmq": 163132,
+    "kafka": 161031
+  },
+  {
+    "count": 1000000,
+    "bullmq": 63633,
+    "rabbitmq": 134264,
+    "kafka": 133404
+  },
+  {
+    "count": 10000000,
+    "bullmq": 60260,
+    "rabbitmq": 126860,
+    "kafka": 132017
+  }
+]
