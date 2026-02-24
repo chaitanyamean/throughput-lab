@@ -11,15 +11,6 @@ A benchmarking tool that compares the throughput performance of three popular me
 
 The benchmark measures how many messages each system can produce/publish per second across scales of 10K, 100K, 1M, and 10M messages.
 
-## Results
-
-| Scale | BullMQ (msg/s) | RabbitMQ (msg/s) | Kafka (msg/s) |
-|-------|-----------------|-------------------|----------------|
-| 10K | 28,571 | 107,527 | 138,889 |
-| 100K | 61,013 | 163,132 | 161,031 |
-| 1M | 63,633 | 134,264 | 133,404 |
-| 10M | 60,260 | 126,860 | 132,017 |
-
 Kafka and RabbitMQ deliver similar high throughput at scale, while BullMQ (Redis-backed) trails behind.
 
 ## Project Structure
