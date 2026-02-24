@@ -6,6 +6,9 @@ A benchmarking tool that compares the throughput performance of three popular me
 - **RabbitMQ** — Traditional message broker (AMQP)
 - **BullMQ** — Redis-based job queue for Node.js
 
+<img width="637" height="228" alt="throughput-lab" src="https://github.com/user-attachments/assets/4f04a9cb-538c-4513-81f2-cfe8f5180330" />
+
+
 The benchmark measures how many messages each system can produce/publish per second across scales of 10K, 100K, 1M, and 10M messages.
 
 ## Results
